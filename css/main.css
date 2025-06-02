@@ -95,6 +95,49 @@ h1{
     color: #333;
 }
 
+/* Navbar styles */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 0.5rem 0;
+  background: #fff !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #7e62d9 !important;
+  letter-spacing: 1px;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28126,98,217,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-link {
+  color: #7e62d9 !important;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-right: 10px;
+  transition: color 0.2s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #5e47b6 !important;
+  text-decoration: underline;
+}
+
+.web_pic{
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-around;
+}
 @media (max-width: 700px) {
   .yoga_app,
   .weather_app,
@@ -118,4 +161,40 @@ h1{
     max-width: 95vw;
     font-size: 0.98rem;
   }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 8px 24px rgba(126,98,217,0.07);
+    padding: 10px 0;
+  }
+  .navbar-nav .nav-link {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+.about_page{
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+}
+.description{
+    margin: 20px;
+    font-size: medium;
+}
+h3{
+    font-weight: 100;
+    font-size: large;
+}
+h1{
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact_me{
+    font-weight: 400;
+    font-size: 30px;
 }
